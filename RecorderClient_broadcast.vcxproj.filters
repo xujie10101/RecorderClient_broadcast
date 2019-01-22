@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadcastRead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadcastSend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JSONParse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jw_thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jw_event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jw_inline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linux_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="os_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jw_util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jw_atom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jw_log4z.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadcastReadMan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="strHex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadcastRead.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadcastSend.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JSONParse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jw_thread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jw_event.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jw_atom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jw_util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jw_log4z.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadcastReadMan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strHex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
